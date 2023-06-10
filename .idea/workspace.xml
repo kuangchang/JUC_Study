@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f39adee-a0a7-4037-92fb-0e340f99e95e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Sleep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ThreadStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/parkUnpark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CountDownLatchExp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CyclicBarrierExp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +25,15 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$PROJECT_DIR$/../apache-maven-3.5.3/local_repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../apache-maven-3.5.3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2Qp5ovkjt6TbO2ARPdGYgd541jJ" />
   <component name="ProjectLevelVcsManager">
@@ -46,7 +56,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.23333333",
-    "settings.editor.selected.configurable": "fileTemplates",
+    "settings.editor.selected.configurable": "MavenSettings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -55,7 +65,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreadStatus">
+  <component name="RunManager" selected="Application.CyclicBarrierExp">
     <configuration name="AtomAcc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.AtomAcc" />
       <module name="Learn" />
@@ -69,8 +79,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AtomFieldUp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.AtomFieldUp" />
+    <configuration name="CountDownLatchExp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.CountDownLatchExp" />
       <module name="Learn" />
       <extension name="coverage">
         <pattern>
@@ -82,8 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AtomMarkable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.AtomMarkable" />
+    <configuration name="CyclicBarrierExp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.CyclicBarrierExp" />
       <module name="Learn" />
       <extension name="coverage">
         <pattern>
@@ -123,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CyclicBarrierExp" />
+        <item itemvalue="Application.CountDownLatchExp" />
         <item itemvalue="Application.ThreadStatus" />
         <item itemvalue="Application.parkUnpark" />
         <item itemvalue="Application.AtomAcc" />
-        <item itemvalue="Application.AtomFieldUp" />
-        <item itemvalue="Application.AtomMarkable" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +151,7 @@
       <updated>1686037862694</updated>
       <workItem from="1686037864064" duration="2183000" />
       <workItem from="1686232234987" duration="3203000" />
-      <workItem from="1686235791585" duration="8994000" />
+      <workItem from="1686235791585" duration="17411000" />
     </task>
     <servers />
   </component>
